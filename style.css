@@ -1,28 +1,39 @@
-/* web fonts */
-
 /* base styles */
-*, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
     font-size: 62.5%; /* 16 x 62.5% = 10px */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
 /* responsive image */
-
+#img-div {
+    width: 100%;
+    text-align: center;
+    margin: 1rem auto;
+    background: white;
+}
 #image {
     display: block;
-    width: 100%;
-    max-width: 800px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
 }
-/* main styles */
-
-#img-div {
-    width: 80%;
-    text-align: center;
-    padding: 1rem;
-    margin: 1rem auto;
-    border: 4px solid blue;
+#img-caption {
+    margin: 1rem 0px;
 }
+/* main styles */
+#main * {
+    box-sizing: border-box;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+#title {
+    border: 1px solid red;
+    text-align: center;
+}
+.title-heading{
+}
+.section-heading {
+}
+
