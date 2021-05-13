@@ -16,7 +16,7 @@ body {
     background-color: rgba(252,251,245,.3);
     border: 1px solid #FFF7A3;
     padding: 1rem;
-    margin: 1rem .5rem;
+    margin: 1rem .8rem;
 }
 #image {
     display: block;
@@ -56,7 +56,7 @@ body {
 .text {
     font-size: 1rem;
     line-height: 1.4rem;
-    padding:.6rem;
+    padding:.8rem;
 }
 .section-text {
     text-align: center;
@@ -75,6 +75,4 @@ body {
 .section-item {
     margin: .5rem 0;
 }
-
-/* test comment 1 */ 
 
