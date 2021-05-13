@@ -58,5 +58,21 @@ body {
     line-height: 1.4rem;
     padding:.6rem;
 }
-
+.section-text {
+    text-align: center;
+    font-size: 1rem;
+    padding: .5rem;
+    margin: 1rem 0;
+}
+.section-list {
+    list-style: circle inside;
+    width: 80%;
+    margin: 0 auto;
+    font-size: .9rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+.section-item {
+    margin: .5rem 0;
+}
 
