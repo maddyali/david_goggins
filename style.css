@@ -75,4 +75,26 @@ body {
 .section-item {
     margin: .5rem 0;
 }
+ #final-heading {
+    width: 90%;
+    padding: 1.4rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+/* styles for link */
 
+/* unvisited link */
+#tribute-link {
+    color: black;
+    text-decoration: white wavy underline;
+}
+/* visted link */
+#tribute-link:visited {
+    color: purple;
+}
+/* mouse over link */
+#tribute-link:hover {
+    color: white;
+    cursor: pointer;
+}
