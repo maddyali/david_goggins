@@ -7,6 +7,7 @@
 
 body {
     font-size: 62.5%; /* 16 x 62.5% = 10px */
+    font-family: 'Heebo', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -45,9 +46,15 @@ body {
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
-    margin: .5rem;
+    margin: 0 .5rem;
 }
 /* heading styles */
+.title-wrapper {
+    width: 200px;
+    padding-top: 1rem;
+    border-bottom: 2.7px solid #FFF7A3;
+    margin: 0 auto;
+}
 .section-heading {
     text-align: center;
     font-size: 1.3rem;
@@ -111,4 +118,11 @@ body {
 #tribute-link:hover {
     color: white;
     cursor: pointer;
+}
+/* media queries */
+@media (min-width:361px) {
+    .title-heading {
+        max-width: 10em;
+        margin: 0 auto;
+    }
 }
