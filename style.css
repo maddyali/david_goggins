@@ -120,9 +120,37 @@ body {
     cursor: pointer;
 }
 /* media queries */
-@media (min-width:361px) {
+@media (min-width:357px) {
     .title-heading {
         max-width: 10em;
         margin: 0 auto;
     }
 }
+@media (min-width: 400px) {
+    .text, .section-text {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        padding: 0 2.5rem;
+    }
+    .section-list {
+        max-width: 40rem;
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 600px) {
+    #img-div {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .flex-parent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+    .title-heading, #title {
+        padding: 1rem;
+        margin: 0px .5rem;
+    }
+}
+
